@@ -1,6 +1,56 @@
 body{
     padding: 0;
     margin: 0;
-    /* background-color: ; */
+    background-color: #A4CCFC; 
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: #BCBCBB;
+    border-radius: 5px;
+    padding: 0 1cm 1cm 1cm;
+    width: 300px;
+    height: 500px;
+}
+
+main input{
+    outline: 0;
+    margin: 5px;
+    padding: 5px;
+}
+
+main button{
+    outline: 0;
+    padding: 3px 10px;
+    margin: 3px;
+}
+
+h1{
+    color: white;
+    background-color: gray;
+}
+
+#result1, #result{
+    font-size: 20px;
+}
+
+#clear{
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    outline: 0;
+    border-radius: 3px;
+    border: 0;
+}
+
+#clear:hover{
+    background-color: rgb(152, 148, 148);
+}
+
+#clear:active{
+    background-color: rgb(182, 180, 180);
 }

@@ -7,27 +7,34 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Basic TS calculator</h1>
-    <p>
-      Enter the 1st Number
-      <input
-        type="number"
-        id="num1"
-        placeholder="Number 1"
-        required
-        autofocus
-      />
-    </p>
-    <p>
-      Enter the 2st Number
-      <input type="number" id="num2" placeholder="Number 2" required />
-    </p>
-    <button id="Add">Add</button>
-    <button id="Sub">Subtract</button>
-    <button id="Mult">Multiply</button>
-    <button id="Divide">Divide</button>
+    <main>
+      <h1>Basic TS calculator</h1>
+      <br />
 
-    <p>The answer is : <output id="result"></output></p>
+      <form>
+        <p>
+          Enter the 1st Number
+          <input
+            type="number"
+            id="num1"
+            placeholder="Number 1"
+            required
+            autofocus
+          />
+        </p>
+        <p>
+          Enter the 2st Number
+          <input type="number" id="num2" placeholder="Number 2" required />
+        </p>
+        <button type="button" id="Add">Add</button>
+        <button type="button" id="Sub">Subtract</button>
+        <button type="button" id="Mult">Multiply</button>
+        <button type="button" id="Divide">Divide</button>
+        <button type="reset" id="clear">Clear</button>
+
+        <p id="result1">The answer is : <output id="result"></output></p>
+      </form>
+    </main>
   </body>
   <script src="./app.js"></script>
 </html>
